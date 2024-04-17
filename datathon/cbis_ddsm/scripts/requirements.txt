@@ -8,3 +8,4 @@ pandas
 pydicom
 tensorflow
 google-cloud-storage
+keras>=2.13.1rc0 # not directly required, pinned by Snyk to avoid a vulnerability
