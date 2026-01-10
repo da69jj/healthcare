@@ -22,3 +22,5 @@ attrs
 dicomweb-client
 highdicom
 hcls-imaging-ml-toolkit@git+https://github.com/GoogleCloudPlatform/healthcare.git#subdirectory=imaging/ml/toolkit
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
